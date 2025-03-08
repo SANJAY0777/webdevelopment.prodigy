@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Responsive Landing Page with Interactive Navigation</title>
+    <link rel="stylesheet" href="dp1.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <!-- Navigation Menu -->
+    <nav id="navbar">
+        <div class="logo">GSTECHSOLUTION</div>
+        <ul class="nav-links">
+            <li><a href="#home" class="active">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li class="dropdown">
+                <a href="#services">Services <i class="fas fa-caret-down"></i></a>
+                <ul class="dropdown-menu">
+                    <li><a href="#web-dev">Web Development</a></li>
+                    <li><a href="#seo">SEO</a></li>
+                    <li><a href="#marketing">Marketing</a></li>
+                </ul>
+            </li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+        <div class="hamburger">
+            <i class="fas fa-bars"></i>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section id="home" class="hero">
+        <h1>Welcome to GSTechSolution</h1>
+        <p>Your success is our priority.</p>
+        <a href="#about" class="cta-button">Learn More</a>
+    </section>
+
+    <!-- About Section -->
+    <section id="about" class="about">
+        <h2>About Us</h2>
+        <p>We are a company dedicated to providing the best services.</p>
+    </section>
+
+    <!-- Services Section -->
+    <section id="services" class="services">
+        <h2>Our Services</h2>
+        <div class="service-cards">
+            <div class="card">
+                <h3>Web Design</h3>
+                <p>We create beautiful and functional websites.</p>
+            </div><br>
+            <div class="card">
+                <h3>SEO</h3>
+                <p>We help you rank higher on search engines.</p>
+            </div><br>
+            <div class="card">
+                <h3>Marketing</h3>
+                <p>We boost your online presence.</p>
+            </div>
+        </div>
+    </section>
+
+    <!-- Web Development Section -->
+    <section id="web-dev" class="section">
+        <h1>Web Development</h1>
+        <p>In today's digital age, your website is often the first point of contact between your business and potential customers. A well-designed, functional, and user-friendly website is essential for making a lasting impression and driving conversions. At GSTechSolution, we specialize in creating custom websites that not only look stunning but also perform seamlessly across all devices.</p>
+        <p>
+            Our web development services are tailored to meet the unique needs of your business. Whether you need a simple portfolio site, a robust e-commerce platform, or a complex web application, our team of experienced developers has the expertise to bring your vision to life. We use the latest technologies and frameworks to ensure your website is fast, secure, and scalable.
+        </p>
+    </section>
+
+    <!-- SEO Section -->
+    <section id="seo" class="section">
+        <h1>SEO</h1>
+        <p>In today's digital landscape, having a website is not enough. To stand out in the competitive online space, your website needs to rank higher on search engines like Google, Bing, and Yahoo. That's where Search Engine Optimization (SEO) comes in. SEO is the process of optimizing your website to improve its visibility and attract more organic traffic. With over 90% of online experiences beginning with a search engine, SEO is essential for driving targeted traffic, generating leads, and increasing sales.</p>
+        <p>
+            Our comprehensive SEO services include keyword research, on-page optimization, off-page strategies, technical SEO, local SEO, and detailed analytics. We work closely with you to understand your business goals and create a customized SEO plan that delivers measurable results. Let us help you dominate search rankings and grow your online presence.
+        </p>
+    </section>
+
+    <!-- Marketing Section -->
+    <section id="marketing" class="section">
+        <h1>Marketing</h1>
+        <p>In today's fast-paced digital world, effective marketing is the key to reaching your target audience and growing your business. Digital marketing encompasses a wide range of strategies designed to promote your brand, engage customers, and drive conversions. From social media campaigns to email marketing and paid advertising, digital marketing helps you connect with your audience where they spend most of their time—online.</p>
+        <p>
+            At GSTechSolution, we specialize in creating data-driven digital marketing strategies that deliver real results. Our team of experts understands the ever-changing digital landscape and uses the latest tools and techniques to help your business stand out. Whether you're looking to increase brand awareness, generate leads, or boost sales, we tailor our approach to meet your unique goals.
+        </p>
+    </section>
+
+    <!-- Contact Section -->
+    <section id="contact" class="contact">
+        <h2>Contact Us</h2>
+        <form>
+            <input type="text" placeholder="Your Name" required><br>
+            <input type="email" placeholder="Your Email" required><br>
+            <textarea placeholder="Your Message" required></textarea><br>
+            <button type="submit">Send</button>
+        </form>
+    </section>
+
+    <!-- Footer -->
+    <footer>
+        <p>&copy; 2025 Sanjay. All rights reserved.</p>
+    </footer>
+
+    <script src="dp1.js"></script>
+</body>
+</html>

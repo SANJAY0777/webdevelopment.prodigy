@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Navigation Menu</title>
+  <link rel="stylesheet" href="dp.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+  <!-- Navigation Menu -->
+  <nav id="navbar">
+    <div class="logo">MyWebsite</div>
+    <ul class="nav-links">
+      <li><a href="#home" class="active">Home</a></li>
+      <li><a href="#about">About</a></li>
+      <li class="dropdown">
+        <a href="#services">Services <i class="fas fa-caret-down"></i></a>
+        <ul class="dropdown-menu">
+          <li><a href="#web-dev">Web Development</a></li>
+          <li><a href="#seo">SEO</a></li>
+          <li><a href="#marketing">Marketing</a></li>
+        </ul>
+      </li>
+      <li><a href="#contact">Contact</a></li>
+    </ul>
+    <div class="hamburger">
+      <i class="fas fa-bars"></i>
+    </div>
+  </nav>
+
+  <!-- Dummy Content to Enable Scrolling -->
+  <section id="home" class="section">
+    <h1>Home Section</h1>
+  </section>
+  <section id="about" class="section">
+    <h1>About Section</h1>
+  </section>
+  <section id="services" class="section">
+    <h1>Services Section</h1>
+  </section>
+  <section id="web-dev" class="section">
+    <h1>Web Development</h1>
+  </section>
+  <section id="seo" class="section">
+    <h1>SEO</h1>
+  </section>
+  <section id="marketing" class="section">
+    <h1>Marketing</h1>
+  </section>
+  <section id="contact" class="section">
+    <h1>Contact Section</h1>
+  </section>
+
+  <script src="dp.js"></script>
+</body>
+</html>
